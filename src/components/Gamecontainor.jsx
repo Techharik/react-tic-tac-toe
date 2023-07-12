@@ -67,7 +67,7 @@ const Gamecontainer = () => {
       itemArray[2] === itemArray[4] &&
       itemArray[4] === itemArray[6]
     ) {
-      setWinMessage(`${itemArray[0]} won`);
+      setWinMessage(`${itemArray[2]} won`);
     }
 
     if (winMessage != "") {
